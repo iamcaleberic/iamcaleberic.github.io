@@ -1,0 +1,20 @@
+body{   background:url(images/street.jpg)  fixed;
+        margin-top:150px;
+ }
+
+h3,h5{text-align: center !important;
+
+
+   }
+.card-panel{
+            margin-top: 50px;
+            background-color:transparent !important;
+}
+.img-responsive{border-radius: 50px;
+   width:250px;
+   height: 250px;
+
+ }
+ .card-panel{margin-top: 130px !important;
+             font-weight: 400px;
+ }

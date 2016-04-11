@@ -1,7 +1,7 @@
-body{   background:url(images/street.jpg)  fixed;
+/*body{   background:url(images/street.jpg)  fixed;
         margin-top:150px;
  }
-
+*//*
 h3,h5{text-align: center !important;
 
 
@@ -16,5 +16,6 @@ h3,h5{text-align: center !important;
 
  }
  .card-panel{margin-top: 130px !important;
-             font-weight: 400px;
+             font-weight: 400px;*/
  }
+ */body,html{height:100%;background-color:}main{padding-bottom:30px}.navbar a{letter-spacing:6px}.full-bg-img{background:url(images/street.jpg) center center no-repeat fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.intro h2{letter-spacing:30px;color:#fff}.intro h5{margin-top:50px;letter-spacing:8px;color:#8DA2A2}@media only screen and (max-width:700px){.intro h2{letter-spacing:15px;font-size:25px;line-height:40px}.intro h5{letter-spacing:5px;line-height:40px}}.about-box h5,.sec-title{color:#8DA2A2;letter-spacing:8px}.rgba-black-light{background-color:rgba(0,0,0,.1)}.top-nav-collapse{background-color:#252525}.sec-title{text-align:center;margin:60px}.about-box{padding-left:3em;padding-right:3em;padding-top:2em;text-align:center}.about-box h5{margin:30px}.about-box p{color:#666}.about-box ul{margin:30px}.about-box ul li{margin:0;padding:0}.about-box ul a{padding:10px}.about-box ul .fa{font-size:20px;color:#8DA2A2}@media only screen and (max-width:1200px){.about-box h5{margin-top:0}}.contact-data .material-icons{margin-top:20px;margin-bottom:15px;font-size:40px;color:#8DA2A2}.contact-data p{font-size:15px}.btn-ptc{background-color:#8DA2A2!important}.btn-ptc:focus,.btn-ptc:hover{background-color:#9badad!important}

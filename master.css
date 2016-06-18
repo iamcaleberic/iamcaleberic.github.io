@@ -1,0 +1,14 @@
+*{font-family: 'Jura', sans-serif;
+}
+#big{font-family: 'Jura', sans-serif;
+}
+.first{
+	background-image:url(assets/images/home.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	height: 400px;
+}
+.projects{
+	height: auto;
+}

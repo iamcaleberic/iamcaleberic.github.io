@@ -3,9 +3,10 @@
 <head>
 	<title>Eric Caleb</title>
 	<meta charset="utf-8">
-	<meta charset="utf-8" author="Eric Caleb">
-	<meta content = "width=device-width, initial-scale=1", name = "viewport">
-<!-- Sematic -->
+	<meta name="author" author="Eric Caleb">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!-- Semantic -->
 	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
 	<script type="text/javascript" src = "js/semantic.min.js"></script>
 <!-- Generic css -->
@@ -25,28 +26,9 @@
 <div class="ui fixed inverted menu">
     <div class="ui container">
       <a href="#" class="header item">
-        <!-- <img class="logo" src="assets/images/logo.png"> -->
         Eric Caleb
       </a>
-     <!--  <a href="#" class="item">Home</a>
-      <div class="ui simple dropdown item">
-        Dropdown <i class="dropdown icon"></i>
-        <div class="menu">
-          <a class="item" href="#">Link Item</a>
-          <a class="item" href="#">Link Item</a>
-          <div class="divider"></div>
-          <div class="header">Header Item</div>
-          <div class="item">
-            <i class="dropdown icon"></i>
-            Sub Menu
-            <div class="menu">
-              <a class="item" href="#">Link Item</a>
-              <a class="item" href="#">Link Item</a>
-            </div>
-          </div>
-          <a class="item" href="#">Link Item</a>
-        </div>
-      </div> -->
+
     </div>
   </div>
  <!-- First Section -->
@@ -61,8 +43,9 @@
 							<p><b>Fullstack Engineering</b></p>
 							<p><b>and</b></p>
 							<p><b>DevOps Engineering</b></p>
-							<p><b>Security and Encryption</b></p>
-							<p><b>Penetration Testing</b></p>
+							<p><b>and</b></p>
+							<p><b>Security Architecture</b></p>
+
 					</div>
 					<span id="typed"></span>
 
@@ -75,13 +58,13 @@
 					<span id="typed"></span>
  					<br>
 
- 			<div class="ui header typed-cursor" id = "big">  end </div>
+ 			<div class="ui header " id = "big">  end <span class="typed-cursor" > | </span> </div>
 
  		</p></center>
  		</div>
  </section>
  <!-- Second Segment -->
-<div class="ui segment">
+<div class="ui basic segment">
 <div class="ui stackable two column grid">
   <div class="column">
 <!-- Picture -->
@@ -183,10 +166,10 @@
 
 <!-- Projects Section -->
 <section class="projects">
-<div class="ui segment">
+<div class="ui basic segment">
 <div class="ui blue header" id="big">Portfolio</div>
 
-	<div class="ui cards">
+	<div class="ui centered cards">
   <div class="card">
     <div class="content">
      <div class="right floated content">
@@ -359,7 +342,7 @@
 </div>
 </div>
 </section>
-<div class="ui segment">
+<div class="ui basic segment">
 	<center>
 		<div class="ui list">
 	  <div class="item">
@@ -390,23 +373,22 @@
 	</center>
 </div>
 
- <div class="ui inverted vertical footer segment">
-   <div class="ui center aligned container">
-
-      <div class="ui inverted section divider"></div>
-      <img src="assets/images/logo.png" class="ui centered mini image">
-      <div class="ui horizontal inverted small divided link list">
-        <a class="item" href="#">Site Map</a>
-        <a class="item" href="#">Open Source</a>
-        <a class="item" href="#">Licence</a>
-        <a class="item" href="#">Privacy Policy</a>
-      </div>
+<div class="ui inverted vertical footer  segment">
+ <div class="ui center aligned container">
+    <img src="assets/images/logo.png" class="ui centered mini image">
+    <div class="ui horizontal inverted small divided link list">
+      <a class="item" href="#">Open Source</a>
+      <a class="item" href="#">Licence</a>
+      <a class="item" href="#">Privacy Policy</a>
     </div>
   </div>
+</div>
  <script type="text/javascript">
- 	$('.special.cards .image').dimmer({
-	  on: 'hover'
-	});
+ 	$(function(){
+			('.special.cards .image').dimmer({
+		  on: 'hover'
+			});
+		});
  </script>
 
 <script>

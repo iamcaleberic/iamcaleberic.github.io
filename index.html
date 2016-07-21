@@ -8,20 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
-<!--HTTPS redirect and Typed JS-->
-<script>
-    $(function(){
-			var host = "iamcaleberic.github.io";
-			if ((host == window.location.host) && (window.location.protocol != "https:"))
-			    window.location.protocol = "https";
-        $("#typed").typed({
-            stringsElement: $('#typed-strings'),
-						loop: true,
-						loopCount: 8,
-        });
-    });
-</script>
-
 <!-- Semantic -->
 	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
 	<script type="text/javascript" src = "js/semantic.min.js"></script>
@@ -399,7 +385,20 @@
     </div>
   </div>
 </div>
-
+<!--HTTPS redirect and Typed JS-->
+<script>
+  
+    $(function(){
+			var host = "iamcaleberic.github.io";
+			if ((host == window.location.host) && (window.location.protocol != "https:"))
+			    window.location.protocol = "https";
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+						loop: true,
+						loopCount: 8,
+        });
+    });
+</script>
 <!--GA JS code-->
 <script>
 

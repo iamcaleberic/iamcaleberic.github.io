@@ -8,20 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <!--Typed load-->
-  <script type="text/javascript">
-    $("document").ready(function(){
-      var host = "iamcaleberic.github.io";
-			if ((host == window.location.host) && (window.location.protocol != "https:"))
-			    window.location.protocol = "https";
-        $("#typed").typed({
-            stringsElement: $('#typed-strings'),
-						loop: true,
-						loopCount: 8,
-        });
-
-    });
-  </script>"
+  
   <!-- Semantic -->
   <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
   <script type="text/javascript" src="js/semantic.min.js"></script>
@@ -409,7 +396,14 @@
   <script>
   
     $(function(){
-			
+			var host = "iamcaleberic.github.io";
+			if ((host == window.location.host) && (window.location.protocol != "https:"))
+			    window.location.protocol = "https";
+        $("#typed").typed({
+            stringsElement: $('#typed-strings'),
+						loop: true,
+						loopCount: 8,
+        });
     });
 </script>
   <!--GA JS code-->

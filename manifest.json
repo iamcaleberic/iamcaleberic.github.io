@@ -3,8 +3,13 @@
   "name": "Eric Caleb",
   "icons": [
     {
-      "src":"/assets/images/favicon-32x32.png",
-      "sizes": "32 x 32",
+      "src":"/assets/images/add.png",
+      "sizes": "192x192",
+      "type": "/image/png"
+    },
+     {
+      "src":"/assets/images/add144.png",
+      "sizes": "144x144",
       "type": "/image/png"
     }
   ],

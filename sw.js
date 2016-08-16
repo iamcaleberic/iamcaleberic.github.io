@@ -1,3 +1,4 @@
+// install cache iamcaleb 
 self.addEventListener('install', function(e) {
 e.waitUntil(
 caches.open('iamcaleb').then(function(cache) {
@@ -18,7 +19,7 @@ return cache.addAll([
 );
 });
 
-
+// Check cache first before reloading assets
 self.addEventListener('fetch', function(event) {
 console.log(event.request.url);
 event.respondWith(

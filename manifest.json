@@ -1,0 +1,15 @@
+{
+  "short_name": "Eric Caleb",
+  "name": "Eric Caleb",
+  "icons": [
+    {
+      "src":"/assets/images/favicon-32x32.png",
+      "sizes": "32 x 32",
+      "type": "/image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#000",
+  "theme_color": "#536878",
+  "display": "standalone"
+}

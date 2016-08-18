@@ -5,6 +5,8 @@ caches.open('iamcaleb').then(function(cache) {
 return cache.addAll([
 './',
 './index.html',
+'./sw.js',
+'./manifest.json',
 './index.html?homescreen=1',
 './?homescreen=1',
 '../css/master.css',

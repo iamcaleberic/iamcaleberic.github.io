@@ -11,7 +11,7 @@ return cache.addAll([
 '../css/semantic.min.css',
 '../js/master.js',
 '../js/typed.js',
-'../css/semantic.min.js',
+'../js/semantic.min.js',
 '../assets/images/home.jpg',
 '../assets/images/me.jpg'
 ]);

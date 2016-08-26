@@ -1,7 +1,7 @@
 // install cache iamcaleb 
 self.addEventListener('install', function(e) {
 e.waitUntil(
-caches.open('iamcaleb').then(function(cache) {
+caches.open('iamcaleberic').then(function(cache) {
 return cache.addAll([
 './',
 './index.html',

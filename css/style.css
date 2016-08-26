@@ -50,3 +50,11 @@
 		50% { opacity:0; }
 		100% { opacity:1; }
 }
+
+#links{
+	color: #0E6EB8;
+}
+
+#stack{
+	color: #008080;
+}

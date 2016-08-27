@@ -1,3 +1,17 @@
 {
-	"name": 
+	"name": "overseer",
+	"version": "1.0.1",
+	"description": "Portfolio page",
+	"author": {
+		"name": "Eric Caleb",
+		"email": "iamcaleb@tuta.io",
+		"url": "iamcaleberic.github.io"
+	},
+	"repository": {
+		"url": "github.com/iamcaleberic"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		
+	}
 }

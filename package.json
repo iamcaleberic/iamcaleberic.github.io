@@ -1,17 +1,17 @@
 {
-	"name": "overseer",
-	"version": "1.0.1",
-	"description": "Portfolio page",
-	"author": {
-		"name": "Eric Caleb",
-		"email": "iamcaleb@tuta.io",
-		"url": "iamcaleberic.github.io"
-	},
-	"repository": {
-		"url": "github.com/iamcaleberic/iamcaleberic.github.io"
-	},
-	"license": "MIT",
-	"devDependencies": {
-		
-	}
+  "name": "overseer",
+  "version": "1.0.1",
+  "description": "Portfolio page",
+  "author": {
+    "name": "Eric Caleb",
+    "email": "iamcaleb@tuta.io",
+    "url": "iamcaleberic.github.io"
+  },
+  "repository": {
+    "url": "github.com/iamcaleberic/iamcaleberic.github.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-coffee": "^2.3.2"
+  }
 }

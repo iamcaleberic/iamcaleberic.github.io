@@ -1,7 +1,7 @@
 // install cache iamcaleb 
 self.addEventListener('install', function(e) {
 e.waitUntil(
-caches.open('iamcaleberic').then(function(cache) {
+caches.open('iamcalebericv02').then(function(cache) {
 return cache.addAll([
 './',
 './index.html',
@@ -34,7 +34,7 @@ return response || fetch(event.request);
 
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = ['iamcalebericv01'];
+  var cacheWhitelist = ['iamcalebericv02'];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {

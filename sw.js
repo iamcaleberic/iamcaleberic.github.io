@@ -11,6 +11,7 @@ return cache.addAll([
 './?homescreen=1',
 '../css/style.css',
 '../css/semantic.min.css',
+'./components'
 '../js/script.js',
 '../js/typed.js',
 '../js/semantic.min.js',
@@ -33,7 +34,7 @@ return response || fetch(event.request);
 
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = ['iamcaleberic'];
+  var cacheWhitelist = ['iamcaleberic.v0.1'];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {

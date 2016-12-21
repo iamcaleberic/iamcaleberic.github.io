@@ -4,7 +4,7 @@ import { Segment } from 'semantic-ui-react'
 class SectionOne extends Component {
   render() {
     return (
-        <Segment inverted>
+        <Segment className='first' inverted>
           <p>Yes</p>
         </Segment>
     );

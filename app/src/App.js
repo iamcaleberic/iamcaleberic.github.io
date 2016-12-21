@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import MainMenu from './Menu'
+
 import './App.css';
 import './semantic/semantic.min.css'
 

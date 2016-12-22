@@ -15,6 +15,9 @@ body {
     background-attachment: fixed;
 		height: 400px;
 }
+b {
+  color: black;
+}
 .projects{
 	height: auto;
 }

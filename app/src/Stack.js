@@ -6,13 +6,11 @@ export default class Stack extends Component {
     return(
       <div>
         <Header color='blue' content='The Stack' id='big' />
-        <Icon name='mobile' />
+        <Icon name='laptop' />
         <Icon name='desktop' />
-        <div className="content">
-          Software Engineering is my passion and I believe alot can accomplished using code/technology and ofcourse good scripts. So
-          basically what do I do? I am a Fullstack Engineer I majorly use JavaScript, ES6, Python, Ruby, C and Node .With DevOps I encourage
-          Continuous Integration with tools like Circle CI & Travis CI and Continuous Development practices .My DevOps tools include Docker, Capistrano and Chef.
-          Ethical hacking, Penetration testing, Linux Systems/Kernel are part of my skills.
+        <div className='content'>
+          Its a fact and also my belief that alot can accomplished using code/technology and ofcourse good scripts.  I am a Fullstack Engineer.
+          With DevOps I encourage Continuous Integration and Continuous Development practices.Ethical hacking, Penetration testing, Linux Systems/Kernel are part of my skills.
           <List relaxed divided >
             <List.Item>
               <List.Icon name='code' verticalAlign='middle'/>

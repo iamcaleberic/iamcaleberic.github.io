@@ -12,7 +12,7 @@ export default class S2 extends Component {
             <Card centered>
               <Image src='https://iamcaleberic.github.io/assets/images/me.jpg' />
               <Card.Content >
-                <Card.Header>Eric Caleb</Card.Header>
+                <Card.Header as='a' id='big'>Eric Caleb</Card.Header>
                 <Card.Meta> 2017 </Card.Meta>
               </Card.Content>
               <Card.Content extra>

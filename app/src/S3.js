@@ -7,7 +7,7 @@ export default class S3 extends Component {
   render(){
     const portfolio = Portfolio
     return(
-      <Segment>
+      <Segment basic>
         <Card.Group stackable itemsPerRow={4} >
           { portfolio.map((project, i) => <Project {...this.props} i={i} key={i} project={project} />) }
         </Card.Group>
@@ -21,11 +21,11 @@ class Project extends Component {
     const {project} = this.props
     return(
         <Card >
-          <Card.Content >
+          <Card.Content>
             <Card.Header content={project.name} />
             <Card.Meta content={project.stack} />
             <Card.Description content={project.description} />
-          </Card.Content >
+          </Card.Content>
           <Card.Content extra>
             <a href={project.link} target="_blank">
               <Icon name='browser' />

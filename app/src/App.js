@@ -4,6 +4,7 @@ import MainMenu from './Menu'
 import SectionOne from './SectionOne'
 import S2 from './S2'
 import S3 from './S3'
+import Footer from './Footer'
 
 import './App.css';
 import './semantic/semantic.min.css'
@@ -16,6 +17,7 @@ class App extends Component {
         <SectionOne />
         <S2 />
         <S3 />
+        <Footer />
       </div>
     );
   }

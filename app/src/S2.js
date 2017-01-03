@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Segment, Grid, Card, Icon, Image, Divider } from 'semantic-ui-react'
+import myself from '../public/me.jpg'
 
 import Stack from './Stack'
 
@@ -10,7 +11,7 @@ export default class S2 extends Component {
         <Grid stackable columns='2' >
           <Grid.Column>
             <Card centered>
-              <Image src='https://iamcaleberic.github.io/assets/images/me.jpg' />
+              <Image src={myself} />
               <Card.Content >
                 <Card.Header as='a' id='big'>Eric Caleb</Card.Header>
                 <Card.Meta> 2017 </Card.Meta>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Segment, List, Icon } from 'semantic-ui-react'
+import { Segment, List } from 'semantic-ui-react'
 
 export default class Footer extends Component {
   render(){

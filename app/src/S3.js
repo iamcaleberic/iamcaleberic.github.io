@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Segment, Header, Card, Icon } from 'semantic-ui-react'
+import { Segment, Card, Icon, Header } from 'semantic-ui-react'
 
 import { Portfolio } from './Portfolio'
 
@@ -8,6 +8,7 @@ export default class S3 extends Component {
     const portfolio = Portfolio
     return(
       <Segment basic>
+        <Header as='div' color='blue' id='big' content='Portfolio' />
         <Card.Group stackable itemsPerRow={4} >
           { portfolio.map((project, i) => <Project {...this.props} i={i} key={i} project={project} />) }
         </Card.Group>

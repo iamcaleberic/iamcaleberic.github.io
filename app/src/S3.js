@@ -23,8 +23,8 @@ class Project extends Component {
     return(
         <Card >
           <Card.Content>
-            <Card.Header content={project.name} id='big'/>
-            <Card.Meta content={project.stack} />
+            <Card.Header content={project.name} id='big' />
+            <Card.Meta content={project.stack} as='b'/>
             <Card.Description content={project.description} />
           </Card.Content>
           <Card.Content extra>

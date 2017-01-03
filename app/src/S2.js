@@ -16,11 +16,11 @@ export default class S2 extends Component {
                 <Card.Meta> 2017 </Card.Meta>
               </Card.Content>
               <Card.Content extra>
-                <a>
+                <a href='https://twitter.com/eric_caleb'>
                   <Icon name='twitter' />
                   eric_caleb
                 </a>
-                <a className="right floated">
+                <a className="right floated" href='https://github.com/iamcaleberic'>
                   <Icon name='github' />
                   iamcaleberic
                 </a>

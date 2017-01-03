@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Segment } from 'semantic-ui-react'
-import cx from 'classnames'
 import Typist from 'react-typist';
 
 
@@ -35,9 +34,9 @@ class SectionOne extends Component {
                   onTypingDone={this.skillsTyped}
                   cursor={{ hideWhenDone: true }}
                  >
-                  <p><b>puts "Eric Caleb"</b></p>
+                  <p><b>puts 'Eric Caleb'</b></p>
                   <div>
-                    <p><b> [ Fullstack Engineering ,</b></p>
+                    <p><b>return [ Fullstack Engineering ,</b></p>
                     <p><b>DevOps Engineering ]</b></p>
                   </div>
                 </Typist>
@@ -47,13 +46,13 @@ class SectionOne extends Component {
 
                   >
                     <br/>
-                    <b>puts Ruby</b>
+                    <b>puts 'Ruby'</b>
                     <br/>
-                    <b>puts Python</b>
+                    <b>puts 'Python'</b>
                     <br/>
-                    <b>puts Node.js</b>
+                    <b>puts 'Node'</b>
                     <br/>
-                    <b>puts C</b>
+                    <b>puts 'C'</b>
                     <span id="typed"></span>
                     <br/>
                     <div className="ui header " id="big"> end <span className="typed-cursor"> | </span> </div>

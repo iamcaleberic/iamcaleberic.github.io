@@ -31,6 +31,7 @@ export default class Stack extends Component {
                 <List.Description content='Travis' as='a'/>
                 <List.Description content='Docker' as='a'/>
                 <List.Description content='Chef' as='a'/>
+                <List.Description content='Circle CI' as='a'/>
               </List.Content>
             </List.Item>
 

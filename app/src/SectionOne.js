@@ -24,7 +24,7 @@ class SectionOne extends Component {
         <Segment className='first' inverted>
           <div className="inline field">
             <center>
-              <p className="content" style={contentStyle}>
+              <div className="content" style={contentStyle}>
                 <div className="ui header " id="big">
                   <p> def Fullstack & DevOps Engineer</p>
                 </div>
@@ -35,9 +35,9 @@ class SectionOne extends Component {
                   onTypingDone={this.skillsTyped}
                   cursor={{ hideWhenDone: true }}
                  >
-                  <span>puts "Eric Caleb"</span>
+                  <p><b>puts "Eric Caleb"</b></p>
                   <div>
-                    <p><b> skills = [ Fullstack Engineering</b></p>
+                    <p><b> [ Fullstack Engineering ,</b></p>
                     <p><b>DevOps Engineering ]</b></p>
                   </div>
                 </Typist>
@@ -58,7 +58,7 @@ class SectionOne extends Component {
                     <br/>
                     <div className="ui header " id="big"> end <span className="typed-cursor"> | </span> </div>
                   </Typist>) : null }
-              </p>
+              </div>
             </center>
           </div>
         </Segment>

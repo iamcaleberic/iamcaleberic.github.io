@@ -66,3 +66,7 @@ b {
 #stack{
 	color: #008080;
 }
+
+#footer-link {
+  color: #fff !important;
+}

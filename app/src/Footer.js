@@ -6,14 +6,14 @@ export default class Footer extends Component {
     return (
       <Segment inverted basic>
       <center>
-        <List relaxed centered>
+        <List relaxed>
           <List.Item>
-            <List.Icon name='marker' verticalAlign='left'/>
-            <List.Description content='Global' as='a'/>
+            <List.Icon name='marker' verticalAlign='top'/>
+            <List.Description content='Global' as='a' id='footer-link'/>
           </List.Item>
           <List.Item>
-            <List.Icon name='mail' verticalAlign='middle'/>
-            <List.Description content='iamcaleberic@tuta.io' as='a'/>
+            <List.Icon name='mail' verticalAlign='top'/>
+            <List.Description content='iamcaleberic@tuta.io' as='a' id='footer-link'/>
           </List.Item>
         </List>
         </center>

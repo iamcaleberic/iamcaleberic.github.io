@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Segment, Grid, Card, Icon, Image, Divider } from 'semantic-ui-react'
-import myself from '../public/me.jpg'
+import myself from './me.jpg'
 
 import Stack from './Stack'
 

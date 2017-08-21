@@ -9,7 +9,7 @@ body {
 #big{font-family: 'Jura', sans-serif;
 }
 .first{
-		background-image:url(../public/home.jpg);
+		background-image:url(./home.jpg);
 		background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;

@@ -25,7 +25,7 @@ class SectionOne extends Component {
             <center>
               <div className="content" style={contentStyle}>
                 <div className="ui header " id="big">
-                  <p> def Fullstack & DevOps Engineer</p>
+                  <p> def DevOps & Fullstack & Linux Systems Engineer</p>
                 </div>
                 <br/>
 
@@ -36,8 +36,9 @@ class SectionOne extends Component {
                  >
                   <p><b>puts 'Eric Caleb'</b></p>
                   <div>
-                    <p><b>return [ Fullstack Engineering ,</b></p>
-                    <p><b>DevOps Engineering ]</b></p>
+                    <p><b>return [ DevOps Engineering  ,</b></p>
+                    <p><b>Fullstack Engineering ,</b></p>
+                    <p><b>Linux Systems Engineering ]</b></p>
                   </div>
                 </Typist>
                 {this.state.renderSkills ? (

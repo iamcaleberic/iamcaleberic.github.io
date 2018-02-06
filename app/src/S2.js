@@ -14,7 +14,7 @@ export default class S2 extends Component {
               <Image src={myself} />
               <Card.Content >
                 <Card.Header as='a' id='big'>Eric Caleb</Card.Header>
-                <Card.Meta> 2017 </Card.Meta>
+                <Card.Meta> 2018 </Card.Meta>
               </Card.Content>
               <Card.Content extra>
                 <a href='https://twitter.com/eric_caleb'>
@@ -26,6 +26,13 @@ export default class S2 extends Component {
                   iamcaleberic
                 </a>
               </Card.Content>
+              <Card.Content extra>
+                <a href="https://stackoverflow.com/users/6360989/iamcaleberic">
+                <Image src="https://stackoverflow.com/users/flair/6360989.png?theme=dark" width="208" height="58" alt="profile for iamcaleberic at Stack Overflow,
+                Q&amp;A for professional and enthusiast programmers" title="profile for iamcaleberic at Stack Overflow, Q&amp;A for professional and
+                enthusiast programmers"/>
+              </a>
+            </Card.Content>
             </Card>
           </Grid.Column>
           <Divider vertical />

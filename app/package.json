@@ -20,6 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "clean": "gh-pages-clean",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build -b master",
     "test": "react-scripts test --env=jsdom",

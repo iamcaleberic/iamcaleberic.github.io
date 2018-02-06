@@ -30,7 +30,8 @@ export default class Stack extends Component {
                 <List.Description content='Capistrano' as='a'/>
                 <List.Description content='Travis' as='a'/>
                 <List.Description content='Docker' as='a'/>
-                <List.Description content='Chef' as='a'/>
+                <List.Description content='Kubernetes' as='a'/>
+                <List.Description content='Anisble' as='a'/>
                 <List.Description content='Circle CI' as='a'/>
               </List.Content>
             </List.Item>
@@ -48,6 +49,7 @@ export default class Stack extends Component {
               <List.Icon name='code' verticalAlign='middle'/>
               <List.Content>
                 <List.Header content='Python' as='a' id='big' />
+                <List.Description content='Flask' as='a' />
                 <List.Description content='Django' as='a' />
               </List.Content>
             </List.Item>
@@ -56,9 +58,9 @@ export default class Stack extends Component {
               <List.Icon name='code' verticalAlign='middle'/>
               <List.Content>
                 <List.Header content='Deployment & Cloud' as='a' id='big'/>
+                <List.Description content='Amazon Web Services' as='a'/>
                 <List.Description content='Digital Ocean' as='a'/>
                 <List.Description content='Microsoft Azure' as='a'/>
-                <List.Description content='Amazon Web Services' as='a'/>
                 <List.Description content='Google Cloud' as='a'/>
               </List.Content>
             </List.Item>

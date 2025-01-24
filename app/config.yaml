@@ -116,7 +116,7 @@ params:
     stickyNavBar:
       enable: true
       showOnScrollUp: true
-    enableSeparator: false
+    enableSeparator: true
     menus:
       disableAbout: false
       disableExperience: false
@@ -158,7 +158,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am platform engineer that embraces and develops solutions to complex platform engieering issues. I am currently working as a Senior Software Engineer at [weaviate.](https://weaviate.io) in Amsterdam, NL.
+      I am platform engineer that embraces and develops solutions to complex platform engineering issues. I am currently working as a Senior Software Engineer at [Weaviate](https://weaviate.io) in Amsterdam, NL.
 
     skills:
       enable: true
